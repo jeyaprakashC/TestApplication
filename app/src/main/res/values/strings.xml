@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RazerTest</string>
+    <string name="button_sum_text">sum</string>
+    <string name="button_multiply_text">Multiply</string>
+
+    <string name="lable_result_header_text">Result</string>
+    <string name="button_generate_text">Generate Hex String</string>
+
+    <string name="toast_msg">Please generate input before processing</string>
+    <string name="toast_msg_error">unable to generate input please try again</string>
+    <string name="spinner_view_header">   Select Length</string>
+
+
+</resources>
