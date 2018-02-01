@@ -36,4 +36,15 @@ public class HexUtilsTest {
         int result = utils.multiply("");
         assertFalse("not a valid input ", result == 0);
     }
+
+    @Test
+    public void isBigInteger() throws Exception {
+        HexConverterUtils utils = new HexConverterUtils();
+
+        String result = utils.generateRandomString(10);
+        int value = utils.multiply(utils.getHexString(result));
+
+        System.out.println(value);
+        assertFalse("Int max size reached ", value < 0);
+    }
 }
